@@ -1,0 +1,20 @@
+<apex:component>
+
+	<script>
+		define("{{ module_name }}", ["knockout"], function(ko)
+		{
+			function {{ vm_name }}ViewModel(params)
+			{
+				var self = this;
+			}
+									
+			return {
+				viewModel: {{ vm_name }}ViewModel,
+				template: {element: "{{ module_name }}template"}
+			};
+		});
+	</script>
+				
+	<template id="{{ module_name  }}template">
+	</template>
+</apex:component>

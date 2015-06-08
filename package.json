@@ -245,6 +245,29 @@
 		            "default" 		: "MyVisualforceComponent"
 		        }
 		   ]
+		},
+		{
+			"name" 			: "Knockout Visualforce Component",
+			"file_name"		: "KOApexComponent.component",
+			"description" 	: "Knockout Component Visualforce Component template",
+			"author" 		: "Matt Lacey",
+			"params" 		: [ 
+		        {   
+		            "name"          : "api_name",
+		            "description"   : "Visualforce Component API Name",
+		            "default" 		: "MyVisualforceComponent"
+		        },
+				{
+					"name"			: "vm_name",
+					"description"	: "The ViewModel Class Name",
+					"deault"		: "VF"
+				},
+				{
+					"name"			: "module_name",
+					"description"	: "The require.js module name",
+					"deault"		: "vf"
+				}
+		   ]
 		}
 	],
 	"ApexPage" : [
